@@ -42,4 +42,4 @@ for i in range(3,10):
 
 print(aa)
 
-
+print(aa[4:7])
