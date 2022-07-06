@@ -11,6 +11,7 @@ def plus(v1,v2):
     return res
 
 
+
 a = 200
 message = ""
 if a>100:
@@ -55,6 +56,15 @@ print(aa)
 
 aa.reverse()
 print(aa)
+
+aa.reverse()
+print(aa)
+
+def twotimes(v):
+    return v*2
+
+ab = list(map(twotimes,aa))
+print(ab)
 
 
 # dictionary 
@@ -166,6 +176,7 @@ print(len(str1))
 countFound = stra.count('we')
 print(countFound) 
 
+# find는 찾은 위치를 돌려줌 , 못찾으면 -1을 돌려줌
 pos1 = stra.find("the")
 print(pos1)
 
@@ -173,12 +184,30 @@ pos2 = stra.rfind("the")
 print(pos2)
 
 # index는 없을 경우 오류발생
-
 index1 = stra.index("the")
 print(index1)
 
 index2 = stra.rindex("the")
 print(index2)
+
+# startswith, endswith
+r1 = str1.startswith("we")
+print(r1)
+
+r2 = str2.endswith("children.")
+print(r2)
+
+# split
+strd = "python is powerful language."
+sr5 = strd.split()
+print(sr5)
+strd = "python:is:powerful:language."
+str5 = strd.split(':')
+print(str5)
+
+
+
+
 
 
 
