@@ -21,14 +21,25 @@ else:
 print(message)
 
 
-for i in range(0,100):
+for i in range(0,5):
     print(i," ",end=" ")
 
 print(' ')
+
 
 a = 23
 b = 43
 c = plus(a,b)
 print(c)
+
+aa = []
+aa.append(0)
+aa.append(1)
+aa.append(2)
+
+for i in range(3,10):
+    aa.append(i)
+
+print(aa)
 
 
